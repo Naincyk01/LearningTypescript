@@ -3,10 +3,20 @@ greet.toLowerCase();
 console.log(greet);
 
 // number
-var userId = 334455.3;
+let userId = 334455.3;
 userId.toFixed();
-
 // userId = "hitesh"
+
 // boolean
-var isLoggedIn = false;
+let isLoggedIn = false;
+
+// any
+
+let hero: string;
+function getHero(){
+    return "thor"
+}
+
+hero = getHero()
+
 export {}
